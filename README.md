@@ -1,21 +1,22 @@
 # HelloWorld
-First Day Test
-
-# HelloWorld
 
 For first day,record something commands!
 
 ----------------------------------------
 远程代码提交：
+
 git init //把这个目录变成Git可以管理的仓库 
 
 git add/git add .  //文件添加到stage 
 
 git commit -m “first commit” //把文件提交到仓库 　
 　
+
 git remote add origin https://github.com:xxxxx //关联远程仓库(首次关联即可) 
 　
+
 git pull --rebase origin master//将remote代码更新到工作分支
+
 
 git push origin master //把本地库的所有内容推送到远程库上 
 
